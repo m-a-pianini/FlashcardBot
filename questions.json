@@ -1,0 +1,62 @@
+[
+  {
+    "id": 1,
+    "question": "What is the time complexity of binary search?",
+    "answer": "O(log n) — it halves the search space with each step.",
+    "tags": ["cs", "algorithms", "easy"]
+  },
+  {
+    "id": 2,
+    "question": "What does SOLID stand for in software design?",
+    "answer": "Single responsibility, Open/closed, Liskov substitution, Interface segregation, Dependency inversion.",
+    "tags": ["cs", "design", "medium"]
+  },
+  {
+    "id": 3,
+    "question": "What is the powerhouse of the cell?",
+    "answer": "The mitochondria.",
+    "tags": ["biology", "easy"]
+  },
+  {
+    "id": 4,
+    "question": "What year did the Berlin Wall fall?",
+    "answer": "1989.",
+    "tags": ["history", "easy"]
+  },
+  {
+    "id": 5,
+    "question": "What is Newton's second law of motion?",
+    "answer": "F = ma — Force equals mass times acceleration.",
+    "tags": ["physics", "medium"]
+  },
+  {
+    "id": 6,
+    "question": "What is a closure in JavaScript?",
+    "answer": "A function that retains access to its outer scope even after the outer function has returned.",
+    "tags": ["cs", "javascript", "medium"]
+  },
+  {
+    "id": 7,
+    "question": "What is the speed of light in a vacuum?",
+    "answer": "Approximately 299,792,458 metres per second (c).",
+    "tags": ["physics", "easy"]
+  },
+  {
+    "id": 8,
+    "question": "What is the Pythagorean theorem?",
+    "answer": "a² + b² = c², where c is the hypotenuse of a right triangle.",
+    "tags": ["math", "easy"]
+  },
+  {
+    "id": 9,
+    "question": "Explain the CAP theorem.",
+    "answer": "A distributed system can guarantee at most two of: Consistency, Availability, Partition tolerance.",
+    "tags": ["cs", "distributed", "hard"]
+  },
+  {
+    "id": 10,
+    "question": "What is the derivative of sin(x)?",
+    "answer": "cos(x).",
+    "tags": ["math", "calculus", "medium"]
+  }
+]
