@@ -4,6 +4,7 @@ A Telegram bot that sends Q&A flashcards at random intervals,
 drawing from a shuffled deck that never repeats until all cards
 have been seen.
 
+Made with Claude Sonnet 4.6
 ---
 
 ## Setup
