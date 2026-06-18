@@ -1,62 +1,116 @@
 [
   {
     "id": 1,
-    "question": "What is the time complexity of binary search?",
-    "answer": "O(log n) — it halves the search space with each step.",
-    "tags": ["cs", "algorithms", "easy"]
+    "question": "What are the general characteristics of a graph?",
+    "answer": "Directedness, weights, connected components, self loops.",
+    "tags": ["SNA", "easy"]
   },
   {
     "id": 2,
-    "question": "What does SOLID stand for in software design?",
-    "answer": "Single responsibility, Open/closed, Liskov substitution, Interface segregation, Dependency inversion.",
-    "tags": ["cs", "design", "medium"]
+    "question": "What are the global measures that characterize a network?",
+    "answer": "Number of nodes and edges, max/min/avg. degree, density,  global clustering coefficient.",
+    "tags": ["SNA", "easy"]
   },
   {
     "id": 3,
-    "question": "What is the powerhouse of the cell?",
-    "answer": "The mitochondria.",
-    "tags": ["biology", "easy"]
+    "question": "What are the local measures that characterize a network?",
+    "answer": "The local measures: Clustering coefficient, betweenness centrality, Degree centrality, closeness centrality.",
+    "tags": ["SNA", "medium"]
   },
   {
     "id": 4,
-    "question": "What year did the Berlin Wall fall?",
-    "answer": "1989.",
-    "tags": ["history", "easy"]
+    "question": "What are the local measures that characterize a network?",
+    "answer": "The local measures: Clustering coefficient, betweenness centrality, Degree centrality, closeness centrality.",
+    "tags": ["SNA", "medium"]
   },
   {
     "id": 5,
-    "question": "What is Newton's second law of motion?",
-    "answer": "F = ma — Force equals mass times acceleration.",
-    "tags": ["physics", "medium"]
+    "question": "What is the definition and meaning of the betweenness centrality?",
+    "answer": "1989.",
+    "tags": ["SNA", "hard"]
   },
   {
     "id": 6,
-    "question": "What is a closure in JavaScript?",
-    "answer": "A function that retains access to its outer scope even after the outer function has returned.",
-    "tags": ["cs", "javascript", "medium"]
+    "question": "What is the definition and meaning of the closeness centrality?",
+    "answer": "1989.",
+    "tags": ["SNA", "hard"]
   },
   {
     "id": 7,
-    "question": "What is the speed of light in a vacuum?",
-    "answer": "Approximately 299,792,458 metres per second (c).",
-    "tags": ["physics", "easy"]
+    "question": "How are defined the Erdos-Renyi and Molloy-Reed graphs?",
+    "answer": "ER = Random ; MR = QFT propagators randomly connected.",
+    "tags": ["SNA", "easy"]
   },
   {
     "id": 8,
-    "question": "What is the Pythagorean theorem?",
-    "answer": "a² + b² = c², where c is the hypotenuse of a right triangle.",
-    "tags": ["math", "easy"]
+    "question": "What are the expected properties of the Erdos-Renyi and Molloy-Reed graphs? (Degree distribution, clustering, average path length, ...)",
+    "answer": "ER: binomial edges -> poissonian degree; MR: arbitrary degree distribution",
+    "tags": ["SNA", "medium"]
   },
   {
     "id": 9,
-    "question": "Explain the CAP theorem.",
-    "answer": "A distributed system can guarantee at most two of: Consistency, Availability, Partition tolerance.",
-    "tags": ["cs", "distributed", "hard"]
+    "question": "What are the definition and properties of the Watts-Strogatz network? (Degree distribution, clustering, average path length, ...)",
+    "answer": "From K-regular lattice add jump connections wiht probability p for every adge already present, uniform distribution among nodes. Poissonian (=0 for k<K), ~K, ~ln(NKp)/(p*K^2)",
+    "tags": ["SNA", "hard"]
   },
   {
     "id": 10,
-    "question": "What is the derivative of sin(x)?",
-    "answer": "cos(x).",
-    "tags": ["math", "calculus", "medium"]
+    "question": "What are the properties of scale-free networks? (Degree distribution, clustering, average path length, ...)",
+    "answer": "Power law with power 2<p<3, ",
+    "tags": ["SNA", "hard"]
+  },
+  {
+    "id": 11,
+    "question": "What are the definition and properties of the Barabàsi-Albert network? (Degree distribution, clustering, average path length, ...)",
+    "answer": "1989.",
+    "tags": ["SNA", "hard"]
+  },
+  {
+    "id": 12,
+    "question": "What are the connectivity-based the measure of centrality?",
+    "answer": "Degree c., eigenvector c., PageRank, Katz c.,.",
+    "tags": ["SNA", "medium"]
+  },
+  {
+    "id": 13,
+    "question": "What are the geometry-based the measure of centrality?",
+    "answer": "closeness c., Harmonic c., betweenness c.",
+    "tags": ["SNA", "miedum"]
+  },
+  {
+    "id": 14,
+    "question": "What is assortativity and how is it calculated?",
+    "answer": "Covariance of the attribute value along the connected-nodes (edges endpoints) distribution.",
+    "tags": ["SNA", "miedum"]
+  },
+  {
+    "id": 15,
+    "question": "What are the class of algorithms to make community detection?",
+    "answer": "Internal Density, Bridge Detection, Feature Distance, Percolation, Entity Closeness, Structure Deﬁnition, Link Communities, No a priori deﬁnition.",
+    "tags": ["SNA", "miedum"]
+  }, 
+  {
+    "id": 16,
+    "question": "Define one algorithm for each internal density and structure definition community detection",
+    "answer": "Density algorithm: Liouvian Method. Structure definition alg.: K-cliques \"merging\"",
+    "tags": ["SNA", "miedum"]
+  },
+  {
+    "id": 17,
+    "question": "Define an algorithm for bridge detection community detection",
+    "answer": "Bridge: Girvan-Newmann.",
+    "tags": ["SNA", "miedum"]
+  },
+  {
+    "id": 18,
+    "question": "Define two algorithms for percolation community detection",
+    "answer": "Label propagation and Angels & Demons.",
+    "tags": ["SNA", "miedum"]
+  },
+  {
+    "id": 19,
+    "question": "Define an algorithm for entity closeness community detection",
+    "answer": "Infomap: Louvian like optimization.",
+    "tags": ["SNA", "miedum"]
   }
 ]

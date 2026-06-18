@@ -2,3 +2,5 @@
 **/.vscode/
 **/.env
 **/config.json
+**/state.json
+**/bot.log
