@@ -18,27 +18,21 @@
     "tags": ["SNA", "medium"]
   },
   {
-    "id": 4,
-    "question": "What are the local measures that characterize a network?",
-    "answer": "The local measures: Clustering coefficient, betweenness centrality, Degree centrality, closeness centrality.",
-    "tags": ["SNA", "medium"]
-  },
-  {
     "id": 5,
     "question": "What is the definition and meaning of the betweenness centrality?",
-    "answer": "1989.",
+    "answer": "Number of shortest paths that pass through a node (not an endpoint) divided by shortest paths, summed over every pair of nodes (excluded self and the node).",
     "tags": ["SNA", "hard"]
   },
   {
     "id": 6,
     "question": "What is the definition and meaning of the closeness centrality?",
-    "answer": "1989.",
+    "answer": "Inverse of average distance between the node and all the others.",
     "tags": ["SNA", "hard"]
   },
   {
     "id": 7,
     "question": "How are defined the Erdos-Renyi and Molloy-Reed graphs?",
-    "answer": "ER = Random ; MR = QFT propagators randomly connected.",
+    "answer": "ER = Random (an edge exists with prob~binomial(p)) ; MR = QFT propagators randomly connected.",
     "tags": ["SNA", "easy"]
   },
   {
@@ -56,13 +50,13 @@
   {
     "id": 10,
     "question": "What are the properties of scale-free networks? (Degree distribution, clustering, average path length, ...)",
-    "answer": "Power law with power 2<p<3, ",
+    "answer": "Power law with power 2<p<3; clustering ~ m*(ln(N))**2/N; Path length = constant (p=2), ~ln(ln(N)), ~ln(N)/ln(ln(N)) (p=3)",
     "tags": ["SNA", "hard"]
   },
   {
     "id": 11,
     "question": "What are the definition and properties of the Barabàsi-Albert network? (Degree distribution, clustering, average path length, ...)",
-    "answer": "1989.",
+    "answer": "Preferential attachment: start with m0 connected nodes, add a node with m links to nodes already in the net, chosen with probability proportional to their degree. Power law gamma=1/2, ",
     "tags": ["SNA", "hard"]
   },
   {
@@ -111,6 +105,12 @@
     "id": 19,
     "question": "Define an algorithm for entity closeness community detection",
     "answer": "Infomap: Louvian like optimization.",
+    "tags": ["SNA", "miedum"]
+  },
+  {
+    "id": 20,
+    "question": "List and define the useful measures to assess community detection quality",
+    "answer": "Internal node density; Average node degree; Modularity; Conductance.",
     "tags": ["SNA", "miedum"]
   }
 ]

@@ -4,8 +4,8 @@
     "chat_id": "YOUR_CHAT_ID_HERE"
   },
   "schedule": {
-    "min_seconds": 3600,
-    "max_seconds": 86400
+    "min_seconds": 900,
+    "max_seconds": 1800
   },
   "filter": {
     "tags": [],
