@@ -112,5 +112,18 @@
     "question": "List and define the useful measures to assess community detection quality",
     "answer": "Internal node density; Average node degree; Modularity; Conductance.",
     "tags": ["SNA", "miedum"]
+  },
+  {
+    "id": 21,
+    "question": "What are and how are calculated the important quantities in a Stream Grahp?",
+    "answer": "Number of edges, number of nodes, degree (and average), density.",
+    "tags": ["SNA", "miedum"]
+  },
+  {
+    "id": 22,
+    "question": "What are the different types of path obtained by minimizing certain properties in a Stream Graph?",
+    "answer": "Shortest path (minimize number of jumps), fastest path (min. duration as sum of time segments), foremost path (min. time of landing @ last node).",
+    "tags": ["SNA", "miedum"]
   }
+
 ]

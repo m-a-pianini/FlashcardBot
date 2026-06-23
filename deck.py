@@ -15,7 +15,7 @@ from typing import Optional
 
 logger = logging.getLogger(__name__)
 
-STATE_FILE = Path("state.json")
+STATE_FILE = Path("state.json").resolve()
 
 
 class Deck:

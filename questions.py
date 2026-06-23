@@ -8,7 +8,7 @@ from pathlib import Path
 
 logger = logging.getLogger(__name__)
 
-QUESTIONS_FILE = Path("questions.json")
+QUESTIONS_FILE = Path("questions.json").resolve()
 
 
 def load_questions(path: Path = QUESTIONS_FILE) -> list[dict]:

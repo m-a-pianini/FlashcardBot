@@ -43,7 +43,7 @@ logger = logging.getLogger(__name__)
 # ------------------------------------------------------------------ #
 
 def load_config() -> dict:
-    path = Path("config.json")
+    path = Path("config.json").resolve()
     if path.exists():
         with open(path) as f:
             cfg = json.load(f)
